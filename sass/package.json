@@ -1,18 +1,20 @@
 {
-  "name": "page_ohmyfoot",
+  "name": "sass",
   "version": "1.0.0",
-  "description": "Mon projet_2 CEFOD_2024",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch main.scss main.css"
+
   },
   "repository": {
     "type": "git",
     "url": "(https://github.com/Boubaformation/Ohmyfood.git)"
   },
-  "author": "Bouba",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "sass": "^1.77.8"
   }
 }
