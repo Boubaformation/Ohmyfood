@@ -1,0 +1,15 @@
+@import "./Tox-shadow.scss";
+@import "./Tox-shadow.scss";
+*, 
+::after,
+::before
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+main{
+    padding: 0 1rem;
+}

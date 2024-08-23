@@ -1,0 +1,22 @@
+@import "./Tox-shadow.scss";
+header{
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    padding: 0.2rem;
+    position: relative;    
+    margin: 0;
+    @include base;
+    }
+    .ville{
+        background-color: #eaeaea;
+        color: #353535;
+        text-align: center;
+        padding: 0.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        & i{
+            font-size: 1rem;
+        }
+    }

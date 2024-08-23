@@ -1,65 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
-
-*, 
-::after,
-::before
-{
-    box-sizing: border-box;
-}
-body{
-    margin: 0px;
-    font-family: "Roboto", sans-serif;
-}
-h1{
-    font-family: "Shrikhand", cursive;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,.15);
-    padding: 0.2rem;
-    position: relative;    
-    margin: 0;
-    }
-
-main .ville{
-    background-color:#f3f3f3;
-    color: #353535;
-    text-align: center;
-    padding: 0.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-main .ville i{
-    font-size: 1rem;
-}
-/* Contenaire */
-.Contenaire{
-    text-align: center;
-}
-.Contenaire h2{
-    font-size: 2rem;
-    margin-top: 2rem;
-}
-
-.Contenaire p{
-    font-size: 1rem;
-}
-button .btn{
-    background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-    border-radius: 50px;
-    color: white;
-    font-weight: 300;
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-    border: none;
-    text-decoration: none;
-    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .1);
-    transition: transform 200ms;
-}
-.Contenaire .btn:hover{
-    transform: scale(1.02);
-    opacity: 0.9;
-}
-div{
-    background-color: #353535;
-}
+@import "./T_1_base";
+@import "./T_2_homepage";
+@import "./T_3_Animation";
+@import "./T_4_menupages";
+@import "./T_5_devcoffe-banner";
+@import "./Tox-shadow";

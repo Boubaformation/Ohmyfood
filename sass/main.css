@@ -10,17 +10,21 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
+main {
+  padding: 0 1rem;
+}
+
+header {
   font-family: "Shrikhand", cursive;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   padding: 0.2rem;
   position: relative;
   margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-main .ville {
-  background-color: #f3f3f3;
+.ville {
+  background-color: #eaeaea;
   color: #353535;
   text-align: center;
   padding: 0.3rem;
@@ -29,25 +33,25 @@ main .ville {
   align-items: center;
   gap: 1rem;
 }
-
-main .ville i {
+.ville i {
   font-size: 1rem;
 }
 
-/* Contenaire */
 .Contenaire {
   text-align: center;
 }
-
 .Contenaire h2 {
   font-size: 2rem;
   margin-top: 2rem;
 }
-
 .Contenaire p {
   font-size: 1rem;
 }
-.btn {
+.Contenaire .btn:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+.Contenaire .btn {
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   border-radius: 50px;
   color: white;
@@ -56,17 +60,29 @@ main .ville i {
   padding: 1rem 2rem;
   border: none;
   text-decoration: none;
-  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.1);
   transition: transform 200ms;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-.Contenaire .btn:hover {
+.list ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+@media (max-width: 800px) {
+  .list ol {
+    flex-direction: column;
+  }
+}
+.list li {
+  background-color: #eaeaea;
+  padding: 1rem 2rem;
+  flex-grow: 1;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+.list li:hover {
   transform: scale(1.02);
-  opacity: 0.9;
-}
-
-div {
-  background-color: #353535;
 }
 
 /*# sourceMappingURL=main.css.map */

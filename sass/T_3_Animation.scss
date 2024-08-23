@@ -1,0 +1,29 @@
+@import "./Tox-shadow.scss";
+
+.Contenaire{
+    text-align: center;
+
+    & h2{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    & p{
+        font-size: 1rem;
+    }
+    & .btn:hover{
+        transform: scale(1.02);
+        opacity: 0.9;
+    }
+    & .btn{
+        background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+        border-radius: 50px;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        border: none;
+        text-decoration: none;
+        transition: transform 200ms;
+        @include base;
+    }
+}
