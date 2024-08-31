@@ -7,11 +7,16 @@ header{
     margin: 0;
     @include base;
     }
+    .vil1{
+        text-align: center;
+        background-color: #fafafa;
+    }
     .ville{
         background-color: #eaeaea;
         color: #353535;
         text-align: center;
         padding: 0.3rem;
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;

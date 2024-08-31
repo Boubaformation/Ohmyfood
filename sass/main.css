@@ -8,10 +8,61 @@
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
+  display: block;
 }
 
 main {
   padding: 0 1rem;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+.footer {
+  background-color: #353535;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.footer .footer__ligne {
+  margin-block-start: auto;
+}
+.footer__logo {
+  color: white;
+  font-family: "Shrikhand", "cursive";
+  margin: 0;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__listElt {
+  margin: 0.5rem 0;
+}
+.footer__listElt:first-child {
+  margin-top: 0;
+}
+.footer__listElt:last-child {
+  margin-bottom: 0;
+}
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+.footer__icon {
+  width: 1.2rem;
+  margin-right: 0.5rem;
 }
 
 header {
@@ -23,11 +74,17 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
+.vil1 {
+  text-align: center;
+  background-color: #fafafa;
+}
+
 .ville {
   background-color: #eaeaea;
   color: #353535;
   text-align: center;
   padding: 0.3rem;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
